@@ -1,0 +1,36 @@
+Host *
+	AddKeysToAgent yes
+	UseKeychain yes
+	IdentityFile ~/.ssh/id_rsa
+  ServerAliveInterval 240
+
+Host cloud
+  Hostname 110.42.156.236
+  User ubuntu 
+  Port 22
+
+Host vbox
+  Hostname localhost
+  User caihao
+  Port 2200
+
+
+Host dku2321
+  Hostname dku-vcm-2321.vm.duke.edu
+  User vcm
+  Port 22
+
+Host ch505
+  Hostname dku-vcm-2321.vm.duke.edu
+  User ch505
+  Port 22
+
+Host dku1505
+  Hostname dku-vcm-2321.vm.duke.edu
+  User vcm
+  Port 22
+
+Host tokyo
+  Hostname 139.64.236.161
+  User root
+  Port 22
